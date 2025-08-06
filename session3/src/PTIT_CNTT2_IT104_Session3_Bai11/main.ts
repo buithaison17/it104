@@ -3,18 +3,18 @@ enum SystemMode {
     MANUAL = "MANUAL",
 };
 
-type Direction = "Left" | "Right" | "Forward" | "backward";
+type Direction = "Left" | "Right" | "Forward" | "Backward";
 
 const logMovement = (direction: Direction): void => {
-    console.log(`Hướng di duyển: ${direction}`);
+    console.log(`Moving: ${direction}`);
 }
 
 const setMode = (mode: SystemMode): void => {
-    console.log(`Chế độ: ${mode}`);
+    console.log(`System set to ${mode} mode`);
 }
 
 const processInput = (input: any): void => {
-    console.log(`Tham số nhận được: ${input}`);
+    console.log(`Received input (any): ${input}`);
 }
 
 
@@ -32,5 +32,11 @@ const crash = (message: string): never => {
 }
 
 logMovement("Right");
-
+setMode(SystemMode.AUTO);
+setMode(SystemMode.MANUAL);
+processInput("Hello robot!");
+processInput(12345);
+validateInput("âa");
+validateInput(78);
+crash("Overheat detected!");
 // crash("Không hoạt động");
