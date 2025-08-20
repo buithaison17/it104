@@ -1,0 +1,9 @@
+.menu {
+    height: 80vh;
+    flex: 0.2;
+    background-color: #1E3A8A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
