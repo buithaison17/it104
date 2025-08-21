@@ -1,0 +1,65 @@
+table {
+  border-collapse: collapse;
+}
+
+.plr-1 {
+  padding: 0px 15px;
+}
+
+.pright-3 {
+  padding-right: 150px;
+}
+
+.pright-2 {
+  padding-right: 100px;
+}
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.line {
+  border-bottom: 1px solid #dadada;
+}
+
+.status-success {
+  background-color: #fff1f0;
+	height: 25px;
+	width: 150px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 10px;
+	border: 1px solid #5ec796;
+	color: #5ec796;
+}
+
+.status-fail {
+  background-color: #FFF1F0;
+	height: 25px;
+	width: 150px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 10px;
+	border: 1px solid red;
+	color: red;
+}
+
+button {
+  padding: 8px;
+	border-style: none;
+	border-radius: 5px;
+}
+
+.btn-edit {
+	color: orange;
+	border: 1px solid orange;
+}
+
+.btn-remove {
+	color: red;
+	border: 1px solid red;
+}
