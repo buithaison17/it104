@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
+	width: 80%;
+	position: relative;
+}
+
+form {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.input-todo {
+	padding-left: 15px;
+	height: 35px;
+	width: 85%;
+	font-size: 16px;
+	border-style: none;
+	border-radius: 8px;
+	border: 1px solid #dadada;
+}
+
+.todo-error {
+	margin-top: 10px;
+	padding-left: 20px;
+	width: 100%;
+	font-size: 16px;
+	color: red;
+}
+
+.button-add {
+	width: 10%;
+	background-color: #3B82F6;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	border: 1px solid #3B82F6;
+	font-size: 16px;
+}
+
+.todo-list {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.todo-item {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content: space-evenly;
+}
+
+.todo-toggle-status {
+	width: 20px;
+	height: 20px;
+}
+
+.todo-name {
+	width: 85%;
+}
+
+.todo-item-action {
+	display: flex;
+	gap: 5px;
+}
+
+.todo-button {
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.todo-footer {
+	width: 100%;
+	background-color: #dadada;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+.todo-footer span {
+	font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal .content {
+	padding: 30px 20px;
+	min-width: 400px;
+	background-color: white;
+	width: 300px;
+	height: fit-content;
+	border-radius: 5px;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+}
+
+.modal-main {
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.modal-exit {
+	cursor: pointer;
+}
+
+.modal-main .input-todo {
+	width: 95%;
+}
+
+.modal-main label {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.modal-footer {
+	margin-top: 12px;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+
+.btn {
+	font-size: 14px;
+	width: 80px;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.btn-cancel {
+	border: 1px solid #dadada;
+	background-color: white;
+}
+
+.btn-agree {
+	border: 1px solid #007AFF;
+	background-color: #007AFF;
+	color: white;
+}
