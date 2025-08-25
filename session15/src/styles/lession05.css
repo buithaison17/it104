@@ -1,0 +1,64 @@
+#root {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 25px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.active {
+	padding: 2px;
+	border: 1px solid greenyellow;
+	color: green;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.unactive {
+	padding: 2px;
+	border: 1px solid rgb(255, 79, 79);
+	color: red;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.table-btn {
+	border-radius: 8px;
+	padding: 2px 8px;
+	width: 55px;
+}
+
+.btn-block {
+	border: 1px solid rgb(172, 0, 172);
+	color: purple;
+}
+
+.btn-edit {
+	border: 1px solid rgb(255, 179, 39);
+	color: orange;
+}
+
+.btn-remove {
+	border: 1px solid rgb(252, 48, 48);
+	color: red;
+}
+
+.btn-page {
+	padding: 10px;
+	background-color: #2563EB;
+	color: white;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.page-prev-next {
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}

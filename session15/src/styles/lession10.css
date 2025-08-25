@@ -1,0 +1,77 @@
+#root {
+	position: relative;
+}
+
+.modal-add {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-add .overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-add .content {
+	width: 50%;
+	height: fit-content;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.modal-header {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+}
+
+.modal-header div:nth-child(2){
+	cursor: pointer;
+}
+
+.modal-main {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 10px;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+label {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.input {
+	height: 35px;
+	border-radius: 10px !important;
+	border: 1px solid #dadada;
+	padding-left: 15px;
+}
+
+.modal-footer {
+	display: flex;
+	gap: 10px;
+}
+
+.border-gray {
+	border: 1px solid #dadada;
+}
