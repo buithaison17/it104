@@ -1,0 +1,153 @@
+.conatainer {
+	position: relative;
+}
+
+.header {
+	padding: 25px 15px;
+	background-color: #fb923c;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	gap: 15px;
+}
+
+.header div {
+	cursor: pointer;
+}
+
+.header div:nth-child(3) {
+	margin-left: auto;
+}
+
+.header div:nth-child(3) span {
+	padding: 5px;
+	background-color: red;
+	border-radius: 80%;
+}
+
+.list-produce {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+
+.list-produce .item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	width: 250px;
+}
+
+.produce-name {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.prodcue-price {
+	font-size: 18px;
+}
+
+.btn-add-to-cart {
+	background-color: #3B82F6;
+	border-style: none;
+	padding: 8px 15px;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.item img {
+	width: 200px;
+	height: 200px;
+}
+
+.cart {
+	position: absolute;
+	width: 320px;
+	min-height: 250px;
+	background-color: black;
+	top: 85px;
+	right: 25px;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+.cart h2 {
+	border-bottom: 1px solid #dadada;
+	padding-bottom: 15px;
+}
+
+.cart img {
+	width: 35px;
+	height: 35px;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 100%;
+
+}
+
+.cart .item-group {
+	min-height: 140px;
+	border-bottom: 1px solid #dadada;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cart .produce-infor {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	gap: 10px;
+	width: 200px;
+}
+
+.produce-infor div {
+	text-align: left;
+}
+
+.cart .item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-action {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.cart-action div:nth-child(2){
+	cursor: pointer;
+}
+
+.cart-action div:nth-child(1),
+.cart-action div:nth-child(3) {
+	padding: 5px;
+	background-color: white;
+	color: black;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.cart-total {
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
