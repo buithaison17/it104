@@ -1,8 +1,8 @@
 import "./App.css";
-import Exercise7 from "./components/lession7/Exercise7";
+import Exercise9 from "./components/lession9/Exercise9";
 
 function App() {
-	return <Exercise7></Exercise7>;
+	return <Exercise9></Exercise9>;
 }
 
 export default App;
