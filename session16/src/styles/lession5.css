@@ -1,0 +1,55 @@
+.container {
+	width: 400px;
+	background-color: #dadada;
+	padding: 20px 50px;
+	margin: auto;
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+input {
+	background-color: #00FFFF;
+	border-style: none;
+	padding: 10px 8px;
+	border-radius: 8px;
+}
+
+.form-button {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	background-color: #1976D2;
+	color: white;
+	border-style: none;
+	padding: 8px 15px;
+	border-radius: 8px;
+}
+
+.error {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	color: red;
+}
+
+.login-success {
+	width: 400px;
+	background-color: #E3F2FD;
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 15px;
+	border-radius: 10px;
+	border-left: 5px solid #1976D2;
+
+}

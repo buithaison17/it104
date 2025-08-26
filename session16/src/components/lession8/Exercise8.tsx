@@ -112,7 +112,7 @@ export default class Exercise8 extends Component<object, StateType> {
 										0
 									)
 									.toLocaleString("vi-VN")}
-								 VND
+								VND
 							</div>
 						</div>
 					)}
