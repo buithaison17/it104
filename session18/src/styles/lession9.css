@@ -1,0 +1,96 @@
+* {
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 450px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+header {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+header div:nth-child(1) {
+	font-size: 20px;
+	color: #175efc;
+	font-weight: 400;
+}
+
+header div:nth-child(2) {
+	font-size: 25px;
+	color: #1e2939;
+}
+
+header div:nth-child(3) {
+	font-size: 18px;
+	color: gray;
+}
+
+form {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.input-item {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+input {
+	padding: 7px;
+	padding-left: 15px;
+	border-radius: 10px;
+	border: 1px solid #dadada;
+}
+
+.input-error {
+	padding: 7px;
+	padding-left: 15px;
+	border-radius: 10px;
+	border: 1px solid red;
+}
+
+.text-error {
+	font-size: 15px;
+	color: red;
+}
+
+.action-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #175efc;
+}
+
+.action-form div:nth-child(1) {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.action-form div:nth-child(1) span {
+	font-size: 15px;
+}
+
+button {
+	width: 100%;
+	background-color: #175efc;
+	margin: 0 auto;
+	padding: 10px 0;
+	color: white;
+	font-size: 15px;
+	border-style: none;
+	border-radius: 10px;
+}

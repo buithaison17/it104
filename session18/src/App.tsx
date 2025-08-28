@@ -1,8 +1,8 @@
 import "./App.css";
-import { InputRadio } from "./components/lession6/InputRadio";
+import { FormLogin } from "./components/lession9/FormLogin";
 
 function App() {
-	return <InputRadio></InputRadio>
+	return <FormLogin></FormLogin>
 }
 
 export default App;
