@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: fit-content;
+	padding: 20px;
+	background-color: black;
+	border-radius: 10px;
+	margin: auto;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.change-language {
+	display: flex;
+	gap: 8px;
+}
+
+h1 {
+	text-align: center;
+}
