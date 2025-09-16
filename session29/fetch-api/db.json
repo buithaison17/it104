@@ -1,0 +1,116 @@
+{
+	"products": [
+		{
+			"id": "1",
+			"product_name": "Laptop Dell XPS 13",
+			"image": "https://example.com/images/dell-xps-13.jpg",
+			"price": 32000000,
+			"quantity": 10,
+			"created_at": "2025-09-01T10:00:00Z"
+		},
+		{
+			"id": "2",
+			"product_name": "iPhone 15 Pro Max",
+			"image": "https://example.com/images/iphone-15-pro-max.jpg",
+			"price": 34000000,
+			"quantity": 15,
+			"created_at": "2025-09-02T11:30:00Z"
+		},
+		{
+			"id": "3",
+			"product_name": "Samsung Galaxy S24 Ultra",
+			"image": "https://example.com/images/galaxy-s24-ultra.jpg",
+			"price": 28000000,
+			"quantity": 20,
+			"created_at": "2025-09-03T09:15:00Z"
+		},
+		{
+			"id": "4",
+			"product_name": "MacBook Pro 16 M3",
+			"image": "https://example.com/images/macbook-pro-16-m3.jpg",
+			"price": 58000000,
+			"quantity": 5,
+			"created_at": "2025-09-05T14:20:00Z"
+		},
+		{
+			"id": "5",
+			"product_name": "Tai nghe Sony WH-1000XM5",
+			"image": "https://example.com/images/sony-wh-1000xm5.jpg",
+			"price": 8900000,
+			"quantity": 30,
+			"created_at": "2025-09-06T08:45:00Z"
+		}
+	],
+	"students": [
+		{
+			"id": "1",
+			"fullName": "Nguyễn Văn A",
+			"email": "vana@example.com",
+			"address": "Hà Nội",
+			"phone": "0912345678"
+		},
+		{
+			"id": "2",
+			"fullName": "Trần Thị B",
+			"email": "thib@example.com",
+			"address": "TP. Hồ Chí Minh",
+			"phone": "0987654321"
+		},
+		{
+			"id": "3",
+			"fullName": "Lê Văn C",
+			"email": "vanc@example.com",
+			"address": "Đà Nẵng",
+			"phone": "0901122334"
+		},
+		{
+			"id": "4",
+			"fullName": "Phạm Thị D",
+			"email": "thid@example.com",
+			"address": "Cần Thơ",
+			"phone": "0933445566"
+		},
+		{
+			"id": "5",
+			"fullName": "Hoàng Văn E",
+			"email": "vane@example.com",
+			"address": "Hải Phòng",
+			"phone": "0977889900"
+		},
+		{
+			"id": "6",
+			"fullName": "Đặng Thị F",
+			"email": "thif@example.com",
+			"address": "Huế",
+			"phone": "0922113344"
+		},
+		{
+			"id": "7",
+			"fullName": "Vũ Văn G",
+			"email": "vang@example.com",
+			"address": "Quảng Ninh",
+			"phone": "0966554433"
+		},
+		{
+			"id": "8",
+			"fullName": "Bùi Thị H",
+			"email": "thih@example.com",
+			"address": "Nam Định",
+			"phone": "0955667788"
+		},
+		{
+			"id": "9",
+			"fullName": "Ngô Văn I",
+			"email": "vani@example.com",
+			"address": "Thanh Hóa",
+			"phone": "0944221100"
+		},
+		{
+			"id": "10",
+			"fullName": "Phan Thị K",
+			"email": "thik@example.com",
+			"address": "Nghệ An",
+			"phone": "0933778899"
+		}
+	]
+}
