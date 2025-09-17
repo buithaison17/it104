@@ -40,7 +40,14 @@ export const ToDoApp = () => {
 	};
 	const onDelete = async (id: string) => {
 		await axios.delete(`http://localhost:3000/todos/${id}`);
-		await fetchData();
+
+		if (activeFilter === "done") {
+			setTodos(todos.filter((t) => t.id !== id && t.isDone));
+		} else if (activeFilter === "pending") {
+			setTodos(todos.filter((t) => t.id !== id && !t.isDone));
+		} else {
+			setTodos(todos.filter((t) => t.id !== id));
+		}
 	};
 	const toggleStatus = async (id: string) => {
 		const todo = todos.find((t) => t.id === id);
@@ -95,11 +102,24 @@ export const ToDoApp = () => {
 	};
 	const onEdit = async () => {
 		const todo = todos.find((t) => t.id === idAction);
-		await axios.put(`http://localhost:3000/todos/${idAction}`, {
-			...todo,
-			title: inputState.inputEdit,
-		});
-		await fetchData();
+		if (!todo) return;
+		const updatedTodo = { ...todo, title: inputState.inputEdit };
+		await axios.put(`http://localhost:3000/todos/${idAction}`, updatedTodo);
+		if (activeFilter === "done") {
+			setTodos(
+				todos
+					.map((t) => (t.id === idAction ? updatedTodo : t))
+					.filter((t) => t.isDone)
+			);
+		} else if (activeFilter === "pending") {
+			setTodos(
+				todos
+					.map((t) => (t.id === idAction ? updatedTodo : t))
+					.filter((t) => !t.isDone)
+			);
+		} else {
+			setTodos(todos.map((t) => (t.id === idAction ? updatedTodo : t)));
+		}
 		toggleModalEdit(idAction);
 	};
 	return (
