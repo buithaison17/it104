@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "State trong ReactJs",
-      "img": "State trong ReactJs",
-      "content": "2121",
-      "date": "3/9/2025",
-      "publish": true,
-      "status": false
-    },
-    {
       "id": "2",
       "title": "1221211",
       "img": "122",
@@ -24,7 +15,7 @@
       "img": "2111",
       "content": "211",
       "date": "3/9/2025",
-      "publish": true,
+      "publish": false,
       "status": false
     }
   ]

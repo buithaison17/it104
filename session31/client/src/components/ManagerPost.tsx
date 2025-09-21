@@ -81,6 +81,18 @@ export const ManagerPost = () => {
 				content: post.content,
 			});
 	};
+	const handleFiltered = async (e: React.ChangeEvent<HTMLSelectElement>) => {
+		const response = await axios.get("http://localhost:3000/posts");
+		let data: Post[] = response.data;
+		if (e.target.value) {
+			if (e.target.value === "public") {
+				data = data.filter((p) => p.publish === true);
+			} else {
+				data = data.filter((p) => p.publish === false);
+			}
+		}
+		setPosts(data);
+	};
 	const getToday = (): string => {
 		const date = new Date();
 		const day = date.getDay();
@@ -140,11 +152,12 @@ export const ManagerPost = () => {
 						className="w-[300px]"
 					></Input>
 					<select
-						name=""
-						id=""
+						onChange={handleFiltered}
 						className="w-[250px] border rounded-md hover:border-blue-500 px-2"
 					>
 						<option value="">Lọc bài viết</option>
+						<option value="public">Đã xuất bản</option>
+						<option value="private">Ngừng xuất bản</option>
 					</select>
 				</div>
 				<button
