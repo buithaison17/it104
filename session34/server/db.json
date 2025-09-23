@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "sv001",
+      "name": "bùi thái sơn",
+      "gender": "Nam",
+      "age": 12,
+      "birthday": "2006-01-17",
+      "hometown": "thái bình",
+      "address": "thái bình"
+    },
+    {
+      "id": "sv002",
+      "name": "bùi thái sơn",
+      "gender": "Nam",
+      "age": 19,
+      "birthday": "2006-01-17",
+      "hometown": "thái bình",
+      "address": "thái bình"
+    }
+  ]
+}
