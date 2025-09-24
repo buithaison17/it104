@@ -1,12 +1,13 @@
 import { Provider } from "react-redux";
 import "./App.css";
 import { store } from "./store/store";
-import { Exercise07 } from "./components/Exercise07";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router/router";
 
 function App() {
 	return (
 		<Provider store={store}>
-			<Exercise07></Exercise07>
+			<RouterProvider router={router}></RouterProvider>
 		</Provider>
 	);
 }

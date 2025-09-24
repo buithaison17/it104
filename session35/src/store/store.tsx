@@ -5,6 +5,7 @@ import toggleTheme from "./toggleTheme";
 import toggleMode from "./toggleMode";
 import setLanguage from "./setLanguage";
 import listSlice from "./listFavouriteUser";
+import loginReducer from "./loginReducer";
 
 export const store = configureStore({
 	reducer: {
@@ -14,6 +15,7 @@ export const store = configureStore({
 		toggleMode: toggleMode,
 		setLanguage: setLanguage,
 		listSlice: listSlice,
+		loginReducer: loginReducer,
 	},
 });
 
