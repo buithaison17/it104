@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": "9af66df7-8812-447f-9825-b42ce0a53a7a",
+      "code": "122",
+      "name": "12",
+      "category": "1",
+      "price": 1,
+      "image": "https://res.cloudinary.com/db4y1dgnp/image/upload/v1759326406/mbrm7e3gg1yzwqvnu7jr.jpg",
+      "status": "active"
+    }
+  ],
+  "categories": [
+    {
+      "id": "722a75fd-7e4d-4b1e-a3aa-de6bfe19cea8",
+      "name": "12",
+      "description": "1",
+      "status": "active"
+    }
+  ]
+}
